@@ -1,168 +1,831 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
 
 @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap');
+
 .inter-font {
-    font-family: "Inter", sans-serif;
-    font-optical-sizing: auto;
-    font-weight: 900;
-    font-style: normal;
-    font-variation-settings:
-        "slnt" 0;
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 900;
+  font-style: normal;
+  font-variation-settings:
+    "slnt" 0;
 }
+
 .dancing-script-font {
-    font-family: "Dancing Script", cursive;
-    font-optical-sizing: auto;
-    font-weight: 700;
-    font-style: normal;
-  }
+  font-family: "Dancing Script", cursive;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+}
 
 
-  
+
 /* default style  start------------------ */
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: "Inter", sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Inter", sans-serif;
 }
 
 .container {
-    background: #000000;
+  max-width: 100%;
+  width: 100%;
+  background: #000000;
 
-    padding: 0.5rem;
-    margin: 0 auto;
+  /* padding: 1rem; */
+  margin: 0 auto;
 
 }
- .header-of-container{
-    margin: 3rem 10rem;
- }
+
+.header-of-container {
+
+  margin: 0 auto;
+
+}
 
 /* default style end-----------------*/
 
 /* nav start -------------------------------- */
 .nav-bar {
 
-    display: flex;
-    justify-content: space-between;
+  display: flex;
+  justify-content: space-around;
+  padding: 3rem 0;
 
 }
 
 .logo-name em {
-    color: #e6533c;
-    text-align: center;
-    font-size: 2.5rem;
-    font-weight: 700;
-    padding: 0.5rem;
+  color: #e6533c;
+  text-align: center;
+  font-size: 3rem;
+  font-weight: 700;
+
 }
 
 .menu {
-    border: solid rgba(25, 25, 25, 1);
+  border: solid rgba(25, 25, 25, 1);
 
-    color: #fff;
-    display: flex;
-    padding: 0.1rem 0.2rem;
-    gap: 2.5rem;
-    align-items: center;
-    justify-content: center;
-    list-style-type: none;
-    border-radius: 3rem;
+  color: #fff;
+  display: flex;
+  padding: 0.1rem 0.2rem;
+  gap: 2.5rem;
+  align-items: center;
+  justify-content: center;
+  list-style-type: none;
+  border-radius: 3rem;
 }
 
 .menu .home {
-    border: none;
-    outline: none;
-    background: #e6533c;
-    padding: 0.7rem 1.5rem;
-    border-radius: 3rem;
-    text-align: center;
+  border: none;
+  outline: none;
+  background: #e6533c;
+  padding: 0.7rem 1.5rem;
+  border-radius: 3rem;
+  text-align: center;
 }
 
 .menu :nth-child(4) {
-    padding-right: 1rem;
+  padding-right: 1rem;
 }
 
 /* nav end--------------------------- */
 
 /* main-of-header start here--------------- */
-  .main-of-header{
-    color:#fff;
-    display:grid;
-      grid-template-columns: auto auto;
-      
-     /* grid-template-columns: 60% 40%; */
-          
-    
-  }
-  .left-sec{
-    /* border:1px solid; */
-    padding:6rem 5rem 0rem 0rem;
- 
-  }
-  .left-sec h1{
-    font-size:5rem;
-     margin-bottom: 0.5rem;
-  }
-  .left-sec span{
-    font-family: "Dancing Script", cursive;
-    padding-left: 0.7rem;
-}
-.left-sec p{
-    opacity: 0.5;
-    font-weight:300;
-    margin-bottom: 0.5rem;
-}
-.left-sec button{
-   
-    color:#fff;
-    padding:1rem 3rem;
-    margin:1.5rem 0;
-    border:none;
-    outline:0;
-    border-radius:3rem;
+.main-of-header {
+  color: #fff;
+  display: grid;
+  grid-template-columns: auto auto;
+
+
+  justify-content: space-around;
+
 
 }
-  .right-sec{
-    position:relative;
-    padding:2rem 0;
-    margin-right: 1rem;
-    
-  
-  }
-  .right-sec img{
-   margin-right: -6rem;
-  }
-  .img-top-right{
-    border-radius: 0.3rem;
-     position: absolute;
-     top:11rem;
-     right:0.1rem;
-     padding:0.3rem 0.7rem;
-     background-color: rgba(255, 255, 255, 0.2);
-    
-    backdrop-filter:blur(4px);
-  }
-  .img-top-right strong{
-    font-size:2.5rem;
-  }
-  .img-top-right p{
-    font-size:0.7rem;
-    opacity: 0.5;
-  }
-  .img-bottom-left{
-    position: absolute;
-    top:29rem;
-    background:rgba(255,255,255,0.2);
-    backdrop-filter: blur(4px);
-    padding:0.3rem 0.9rem;
-    border-radius: 0.3rem;
-    
-  }
-  .img-bottom-left b{
-    font-size: 1.7rem;
-  }
-  .img-bottom-left p{
-    font-size:0.7rem;
-    opacity: 0.8;
-  }
+
+.left-sec {
+
+  padding: 3rem 0rem 2rem 6rem;
+
+}
+
+.left-sec h1 {
+  font-size: 5rem;
+  margin-bottom: 0.5rem;
+}
+
+.left-sec span {
+  font-family: "Dancing Script", cursive;
+
+}
+
+.left-sec p {
+  opacity: 0.5;
+  font-weight: 100;
+  margin-bottom: 0.5rem;
+  font-size: 0.8rem;
+}
+
+.left-sec .buttons button {
+
+  color: #fff;
+  padding: 1rem 3rem;
+  margin: 1.5rem 1.5rem 0.5rem 0;
+  border: none;
+  outline: 0;
+  border-radius: 3rem;
+
+}
+
+/* ----(btn,p,span)end of.left-sec---------------------- */
+.right-sec {
+  position: relative;
+  padding: 1rem 6rem 2rem 0rem;
+  margin-right: 1rem;
+
+
+}
+
+.right-sec img {
+  margin-right: -6rem;
+}
+
+.img-top-right {
+  border-radius: 0.3rem;
+  position: absolute;
+  top: 11rem;
+  right: 0.1rem;
+  padding: 0.3rem 0.7rem;
+  background-color: rgba(255, 255, 255, 0.2);
+
+  backdrop-filter: blur(4px);
+}
+
+.img-top-right strong {
+  font-size: 2.5rem;
+}
+
+.img-top-right p {
+  font-size: 0.7rem;
+  opacity: 0.5;
+}
+
+/* ---(strong,p)end of .img-top-right--------------------------- */
+.img-bottom-left {
+  position: absolute;
+  top: 29rem;
+  background: rgba(255, 255, 255, 0.2);
+  backdrop-filter: blur(4px);
+  padding: 0.3rem 0.9rem 0.3rem 2.5rem;
+  border-radius: 0.3rem;
+  /* position:relative; */
+}
+
+.img-bottom-left b {
+  font-size: 1.7rem;
+}
+
+.img-bottom-left p {
+  font-size: 0.7rem;
+  opacity: 0.8;
+}
+.img-bottom-left
+.play-icon{
+  width: 30px;
+  height: 30px;
+  /* border: 0.5px solid red; */
+  border-radius:50%;
+  background-image: url(./other-icon/play.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  position:absolute;
+  top:0.8rem;
+  left:0.3rem;
+}
 
 /* main-of-header end here-------------------- */
+/* ************************************************* */
+/* main of container start here---------------- */
+.main-of-container {
+ 
+  display: grid;
+  grid-template-rows: auto auto auto;
+  justify-content: center;
+}
+
+/* change-your-habits section start------------ */
+.change-your-habits {
+  display: grid;
+  grid-template-rows: auto auto auto;
+
+  justify-content: center;
+
+}
+
+.change-your-habits .heading {
+
+  color: #fff;
+
+  margin: 3rem 0rem 1rem;
+}
+
+.change-your-habits .heading h2 {
+
+  font-size: 2.5rem;
+  text-align: center;
+}
+
+.change-your-habits .heading p {
+
+  font-size: 0.8rem;
+  opacity: 0.5;
+  line-height: 1rem;
+  font-weight: 100;
+  text-align: center;
+}
+
+/* ----(h2,p)end of .heading---------------------------------------------*/
+.change-your-habits .img-title-container {
+
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  margin:4rem 0rem 2rem;
+}
+
+.change-your-habits .img-title-container .content-1 img {
+  display: block;
+
+  border-radius: 50%;
+  margin: 0.5rem auto;
+
+
+}
+
+.change-your-habits .img-title-container .content-1 b {
+  display: block;
+  text-align: center;
+}
+
+.change-your-habits .img-title-container .content-1 p {
+  text-align: center;
+  padding: 0.5rem 0.4rem;
+  font-size: 0.8rem;
+  opacity: 0.5;
+  font-weight: 100;
+}
+
+/* ----(img,b,p)end of .content-1--------------------------------------------- */
+.change-your-habits .img-title-container .content-2 img {
+  display: block;
+
+  border-radius: 50%;
+  margin: 0.5rem auto;
+
+}
+
+.change-your-habits .img-title-container .content-2 b {
+  display: block;
+  text-align: center;
+}
+
+.change-your-habits .img-title-container .content-2 p {
+  text-align: center;
+  padding: 0.5rem 0.4rem;
+  font-size: 0.8rem;
+  opacity: 0.5;
+  font-weight: 100;
+}
+
+/* ---(img,b,p)end of .content-2---------------------------------------------- */
+.change-your-habits .img-title-container .content-3 img {
+  display: block;
+
+  border-radius: 50%;
+  margin: 0.5rem auto;
+
+}
+
+.change-your-habits .img-title-container .content-3 b {
+  display: block;
+  text-align: center;
+}
+
+.change-your-habits .img-title-container .content-3 p {
+  text-align: center;
+  padding: 0.5rem 0.4rem;
+  font-size: 0.8rem;
+  opacity: 0.5;
+  font-weight: 100;
+}
+
+/*--(img,b,p)end of .content-3-------------------------------------------------- */
+.change-your-habits .img-title-container .content-4 img {
+  display: block;
+
+  border-radius: 50%;
+  margin: 0.5rem auto;
+
+}
+
+.change-your-habits .img-title-container .content-4 b {
+  display: block;
+  text-align: center;
+}
+
+.change-your-habits .img-title-container .content-4 p {
+  text-align: center;
+  padding: 0.5rem 0.4rem;
+  font-size: 0.8rem;
+  opacity: 0.5;
+  font-weight: 100;
+}
+
+/*--(img,b,p)end of .content-4--------------------------------------------------- */
+.change-your-habits .card {
+
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+  margin: 5rem 0rem 2rem;
+  background: #232323;
+  border-radius: 2rem;
+}
+
+.change-your-habits .card .description {
+  text-align: left;
+  margin: 3rem 0 2rem 5rem;
+}
+
+.change-your-habits .card .description h2 {
+  padding: 0.5rem 0;
+  font-weight: 700;
+  font-size: 2.5rem;
+}
+
+.change-your-habits .card .description p {
+  margin: 0.5rem 0;
+  font-size: 0.8rem;
+  opacity: 0.5;
+  font-weight: 100;
+}
+
+.change-your-habits .card .description button {
+  color: #fff;
+  padding: 1rem 4rem;
+  margin: 2rem 0 2rem 0;
+  border: none;
+  outline: 0;
+  border-radius: 3rem;
+  background: #e6533c;
+}
+
+/* ----(h2,p,button)end of.description------------------ */
+.change-your-habits .card .img {
+  width: 30%;
+  background-image: url(./images/run.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  border: none;
+  border-radius: 1rem;
+  margin: 2.5rem;
+}
+
+/* change-your-habits section end------------ */
+/* bmi-calculator section start------------ */
+.bmi-calculator {
+
+  display: grid;
+  grid-template-rows: auto auto;
+  justify-content: center;
+
+}
+
+.bmi-calculator .title-description {
+
+  margin: 3rem 0;
+
+}
+
+.bmi-calculator .title-description h2 {
+  font-size: 2.5rem;
+  text-align: center;
+  color: #fff;
+
+}
+
+.bmi-calculator .title-description p {
+  text-align: center;
+  color: #fff;
+  font-size: 0.8rem;
+  opacity: 0.5;
+  line-height: 1rem;
+  font-weight: 100;
+}
+
+/* ---(h2,p)end of.title-description----------------------------------------- */
+.bmi-calculator .chart-container {
+
+  display: flex;
+  gap: 20rem;
+  background: #232323;
+
+
+}
+
+.bmi-calculator .chart-container .chart {
+  margin: 3rem 0 2rem 7rem;
+
+}
+
+.bmi-calculator .chart-container .chart table caption {
+  padding: 0.5rem 0rem;
+  font-weight: 800;
+  font-size: 1.5rem;
+  color: #fff;
+}
+
+.bmi-calculator .chart-container .chart table,
+th {
+  padding: 1rem 3.5rem;
+  border: solid rgb(255, 255, 255, 0.2);
+  border-collapse: collapse;
+  color: rgb(255, 255, 255, 0.7);
+
+}
+
+.bmi-calculator .chart-container .chart td {
+  padding: 1rem 2.5rem;
+  font-weight: 100;
+  font-size: 0.8rem;
+  opacity: 0.5;
+  border: solid rgb(255, 255, 255, 0.2);
+
+}
+
+/* --(table)end of .chart------------------------------------------ */
+.bmi-calculator .chart-container .calculator {
+  margin: 3rem 5rem 2rem 0rem;
+ 
+}
+
+.bmi-calculator .chart-container .calculator h3 {
+  padding: 0.4rem;
+  font-weight: 800;
+  font-size: 1.6rem;
+  color: #fff;
+}
+
+.bmi-calculator .chart-container .calculator p {
+  margin: -0.4rem 0.5rem 1rem;
+  font-size: 0.9rem;
+  opacity: 0.5;
+  line-height: 1rem;
+  font-weight: 100;
+  color: #fff;
+
+  /*--(h3,p)end of .calculator-----------------------------------------------  */
+}
+
+.bmi-calculator .chart-container .calculator .input input {
+  padding: 1rem 3rem 1rem 1rem;
+  margin: 0.5rem;
+  border: none;
+  outline: 0;
+  border-radius: 0.5rem;
+
+  background: rgb(255, 255, 255, 0.2);
+}
+
+.bmi-calculator .chart-container .calculator .input input::placeholder {
+  color: #000000;
+}
+
+.bmi-calculator .chart-container .calculator .input [name="gender"] {
+  padding: 1rem 10.5rem 1rem 1.9rem;
+  margin: 0.5rem;
+  border: none;
+  outline: 0;
+  border-radius: 0.5rem;
+  background: rgba(255, 255, 255, 0.2);
+
+  font-size: 0.9rem;
+}
+
+.bmi-calculator .chart-container .calculator .input [name="activities"] {
+  padding: 1rem 19.3rem 1rem 2.2rem;
+  margin: 0.5rem;
+  border: none;
+  outline: 0;
+  border-radius: 0.5rem;
+  background: rgba(255, 255, 255, 0.2);
+
+  font-size: 0.9rem;
+}
+
+.bmi-calculator .chart-container .calculator button {
+  color: #fff;
+  padding: 1rem 4rem;
+  margin: 2rem 0.4rem;
+  border: none;
+  outline: 0;
+  border-radius: 3rem;
+  background: #e6533c;
+}
+
+/* bmi-calculator section end------------ */
+/* meet-our-team section start------------ */
+.meet-our-team {
+
+
+  margin: 0 auto;
+  color: #fff;
+  text-align: center;
+}
+
+.meet-our-team .title-des h2 {
+  font-size: 2.5rem;
+  margin: 2rem 1rem;
+
+}
+
+.meet-our-team .title-des p {
+
+  margin: 1rem 1rem;
+  font-size: 0.8rem;
+  opacity: 0.5;
+  line-height: 1rem;
+  font-weight: 100;
+}
+
+/*--(h2,p)end of .title-des---------------------------------------------------  */
+.meet-our-team .identity-img {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  justify-content: center;
+  margin: 3rem 2rem;
+  padding: 2rem;
+  background: #232323;
+  border-radius: 1rem;
+
+}
+
+.meet-our-team .identity-img img {
+
+  width: 23rem;
+  height: 23rem;
+  margin: 1rem;
+  border: none;
+  border-radius: 1rem;
+
+}
+
+.meet-our-team .identity-img div {
+  position: relative;
+}
+
+.meet-our-team .identity-img strong {
+  position: absolute;
+  top: 20rem;
+  left: 3rem;
+
+
+}
+
+.meet-our-team .identity-img p {
+  position: absolute;
+  top: 21rem;
+  left: 3rem;
+  opacity: 0.6;
+
+}
+
+/* meet-our-team section end------------ */
+/* main of container edd here------------------- */
+/* ************************************************ */
+/* footer-of-container start-------------------- */
+.footer-of-container {
+
+
+  margin: 0 auto;
+  background: #232323
+}
+
+.footer-of-container .all-of-footer {
+
+
+
+  display: flex;
+
+}
+
+.footer-of-container .all-of-footer .Part-1 {
+
+  margin: 4rem 0rem;
+
+}
+
+.footer-of-container .all-of-footer .Part-1 h3 {
+  font-size: 2rem;
+  padding: 1rem 0rem 1rem 9rem;
+  color: #e6533c;
+
+}
+
+.footer-of-container .all-of-footer .Part-1 p {
+  padding: 1rem 0rem 1rem 9rem;
+  color: rgb(255, 255, 255, 0.2);
+  line-height: 1.5rem;
+
+}
+
+/* --(h3,p)end of.part-1---------------------------------------------------- */
+.footer-of-container .all-of-footer .Part-2 {
+
+  margin: 4rem 0rem;
+
+}
+
+.footer-of-container .all-of-footer .Part-2 h3 {
+  font-size: 1.5rem;
+  padding: 1rem 0rem 1rem 9rem;
+  color: #fff;
+}
+
+.footer-of-container .all-of-footer .Part-2 p {
+  padding: 1rem 0rem 1rem 9rem;
+  color: rgb(255, 255, 255, 0.2);
+  line-height: 1.5rem;
+}
+
+/* --(h3,p)end of.part-2----------------------------------------------- */
+.footer-of-container .all-of-footer .Part-3 {
+
+  margin: 4rem 0rem;
+
+}
+
+.footer-of-container .all-of-footer .Part-3 h3 {
+  font-size: 1.5rem;
+  padding: 1rem 0rem 1rem 9rem;
+  color: #fff;
+}
+
+.footer-of-container .all-of-footer .Part-3 p {
+  padding: 1rem 0rem 1rem 9rem;
+  color: rgb(255, 255, 255, 0.2);
+  line-height: 1.5rem;
+}
+
+/* ---(h3,p)end of.part-3-------------------------------------------- */
+.footer-of-container hr {
+
+  margin: 0 4rem 2rem;
+  background: #fff;
+  opacity: 0.5;
+}
+
+.footer-of-container .last-p {
+  color: #fff;
+  margin: 2rem auto;
+  padding-bottom: 2rem;
+  text-align: center;
+  font-size: 1.1rem;
+  opacity: 0.5;
+
+}
+
+/* footer-of-container end ----------------------- */
+/* ************************************************** */
+
+
+@media only screen and ( max-width: 576px) {
+  /* .header-of-container {
+  
+    margin: 0 auto;
+  
+  } */
+  
+  /* nav start -------------------------------- */
+
+
+  .nav-bar {
+  
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 1.5rem;
+}
+
+.logo-name em {
+  margin-left:1.8rem;
+
+
+} 
+
+     .menu {
+ 
+     background-image: url(./other-icon/icons8-menu-30.png);
+     background-repeat: no-repeat;
+   
+     border:none;
+     background-position: center;
+     padding: 0.1rem 1.3rem ;
+      margin-right:1.5rem;
+  
+     
+
+
+}  
+
+   .menu li {
+  display: none;
+
+
+} 
+
+ 
+
+  /* nav end--------------------------- */
+
+
+  /* main-of-header start here--------------- */
+ .main-of-header{
+  color:#fff;
+  display:grid;
+  grid-template-columns: auto;
+  margin: 0rem 1.8rem;
+                           
+    
+ 
+        
+  
+}
+.left-sec{
+
+  padding:0rem;
+
+}
+.left-sec h1{
+  font-size:3rem;
+   
+}
+.left-sec span{
+ 
+  padding-left: 0.3rem;
+}
+.left-sec p{
+  opacity: 0.5;
+  font-weight:300;
+  margin-bottom: 0.5rem;
+}
+.left-sec .buttons {
+   display:flex;
+}
+.left-sec .buttons button{
+
+  padding:1rem 1.5rem;
+
+ 
+
+}
+.right-sec{
+  position:relative;
+  padding:0rem ;
+  margin: 0rem 4rem;
+  
+
+}
+.right-sec img{
+
+  height: 30rem;
+}
+.img-top-right{
+
+   position: absolute;
+   top:7rem;
+   right:-3.5rem;
+
+}
+.img-top-right strong{
+  font-size:2rem;
+}
+
+.img-bottom-left{
+  position: absolute;
+  top:22rem;
+  left:-2.5rem;
+
+  padding:0.3rem 1rem 0.3rem 2.3rem;
+
+  
+}
+.img-bottom-left b{
+  font-size: 1.5rem;
+}
+
+
+  /* main-of-header end here-------------------- */
+
+}
