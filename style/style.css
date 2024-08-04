@@ -782,7 +782,7 @@ th {
   }
 
   .left-sec .buttons button {
-    padding: 0.7rem 1.5rem;
+    padding: 0.6rem 1.5rem;
 
 
 
@@ -958,7 +958,7 @@ th {
    
     
     margin: 1rem 0;
-    padding: 0.5rem 3rem;
+    padding: 0.6rem 2.5rem;
   
    
   }
@@ -1102,7 +1102,7 @@ th {
 .bmi-calculator .chart-container .calculator button {
  
   margin: 2rem auto;
-  padding: 0.5rem 3rem;
+  padding: 0.6rem 2.5rem;
  
 }
 
@@ -1156,14 +1156,14 @@ th {
 
 /* footer-of-container start-------------------- */
 .footer-of-container {
-
+  width: 95%;
+  margin: 0 auto;
 
 
 }
 
 .footer-of-container .all-of-footer {
-  width: 95%;
-  margin: 0 auto;
+
    flex-direction:column;
 
 }
