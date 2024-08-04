@@ -782,7 +782,7 @@ th {
   }
 
   .left-sec .buttons button {
-    padding: 1rem 1.5rem;
+    padding: 0.7rem 1.5rem;
 
 
 
@@ -928,7 +928,7 @@ th {
 
   /*--(img,b,p)end of .content-4--------------------------------------------------- */
   .change-your-habits .card {
- 
+    width:95%;
     justify-content:center;
     flex-direction: column;
     margin: 3rem auto ;
@@ -958,7 +958,7 @@ th {
    
     
     margin: 1rem 0;
-  
+    padding: 0.5rem 3rem;
   
    
   }
@@ -980,8 +980,8 @@ th {
   
 /* bmi-calculator section start------------ */
 .bmi-calculator {
-
- 
+  width:95%;
+  margin:0 auto;
   grid-template-columns: auto;
  
 
@@ -1102,7 +1102,7 @@ th {
 .bmi-calculator .chart-container .calculator button {
  
   margin: 2rem auto;
- 
+  padding: 0.5rem 3rem;
  
 }
 
@@ -1111,7 +1111,12 @@ th {
 
 /* meet-our-team section start------------ */
 
+.meet-our-team {
+
+  width: 95%;
+  margin: 0 auto;
  
+}
 .meet-our-team .title-des h2 {
   font-size: 2rem;
   margin: 2rem auto;
@@ -1153,12 +1158,12 @@ th {
 .footer-of-container {
 
 
-  margin: 0 auto;
 
 }
 
 .footer-of-container .all-of-footer {
- 
+  width: 95%;
+  margin: 0 auto;
    flex-direction:column;
 
 }
