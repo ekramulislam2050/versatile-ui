@@ -33,7 +33,7 @@
   width: 100%;
   background: #000000;
 
- 
+
   margin: 0 auto;
 
 }
@@ -178,7 +178,7 @@
   backdrop-filter: blur(4px);
   padding: 0.3rem 0.9rem 0.3rem 2.5rem;
   border-radius: 0.3rem;
- 
+
 }
 
 .img-bottom-left b {
@@ -576,21 +576,28 @@ th {
   background: #232323;
   border-radius: 1rem;
 
+
+}
+
+.meet-our-team .identity-img div {
+  /* width:90%; */
+  /* height: 90vh; */
+
+  margin: 1rem 0.5rem;
+  position: relative;
+
 }
 
 .meet-our-team .identity-img img {
 
   width: 23rem;
   height: 23rem;
-  margin: 1rem;
   border: none;
   border-radius: 1rem;
 
 }
 
-.meet-our-team .identity-img div {
-  position: relative;
-}
+
 
 .meet-our-team .identity-img strong {
   position: absolute;
@@ -627,11 +634,13 @@ th {
 
   display: flex;
 
+
+
 }
 
 .footer-of-container .all-of-footer .Part-1 {
 
-  margin: 4rem 0rem;
+  margin: 0.5rem 0;
 
 }
 
@@ -652,18 +661,18 @@ th {
 /* --(h3,p)end of.part-1---------------------------------------------------- */
 .footer-of-container .all-of-footer .Part-2 {
 
-  margin: 4rem 0rem;
+  margin: 0.5rem 0;
 
 }
 
 .footer-of-container .all-of-footer .Part-2 h3 {
   font-size: 1.5rem;
-  padding: 1rem 0rem 1rem 9rem;
+  padding: 1rem 5rem 1rem 3rem;
   color: #fff;
 }
 
 .footer-of-container .all-of-footer .Part-2 p {
-  padding: 1rem 0rem 1rem 9rem;
+  padding: 1rem 0rem 1rem 3rem;
   color: rgb(255, 255, 255, 0.2);
   line-height: 1.5rem;
 }
@@ -671,18 +680,18 @@ th {
 /* --(h3,p)end of.part-2----------------------------------------------- */
 .footer-of-container .all-of-footer .Part-3 {
 
-  margin: 4rem 0rem;
+  margin: 0.5rem 0;
 
 }
 
 .footer-of-container .all-of-footer .Part-3 h3 {
   font-size: 1.5rem;
-  padding: 1rem 0rem 1rem 9rem;
+  padding: 1rem 5rem 1rem 1rem;
   color: #fff;
 }
 
 .footer-of-container .all-of-footer .Part-3 p {
-  padding: 1rem 0rem 1rem 9rem;
+  padding: 1rem 5rem 1rem 1rem;
   color: rgb(255, 255, 255, 0.2);
   line-height: 1.5rem;
 }
@@ -736,12 +745,12 @@ th {
     padding: 0.1rem 1.3rem;
     margin-right: 1.5rem;
 
-}
+  }
 
   .menu li {
     display: none;
 
-}
+  }
 
 
 
@@ -829,7 +838,7 @@ th {
   /* **************************************************** */
   /* main-of-container start here------------------------- */
 
-  
+
   /* change-your-habits section start------------ */
   .change-your-habits {
     display: grid;
@@ -854,17 +863,17 @@ th {
     font-size: 0.7rem;
     opacity: 0.7;
 
- 
+
   }
 
   /* ----(h2,p)end of .heading---------------------------------------------*/
   .change-your-habits .img-title-container {
-    flex-direction:column;
+    flex-direction: column;
     margin: 0 auto;
   }
 
   .change-your-habits .img-title-container .content-1 img {
-   
+
     margin: 1rem auto;
 
 
@@ -872,7 +881,7 @@ th {
 
 
   .change-your-habits .img-title-container .content-1 p {
- 
+
     padding: 0.5rem auto;
     opacity: 0.7;
 
@@ -887,53 +896,53 @@ th {
 
 
   .change-your-habits .img-title-container .content-2 p {
- 
+
     padding: 0.5rem auto;
-   
+
     opacity: 0.7;
-  
+
   }
 
   /* ---(img,b,p)end of .content-2---------------------------------------------- */
   .change-your-habits .img-title-container .content-3 img {
-  
+
     margin: 1rem auto;
 
   }
 
- 
+
 
   .change-your-habits .img-title-container .content-3 p {
- 
+
     padding: 0.5rem auto;
     opacity: 0.7;
-  
+
   }
 
   /*--(img,b,p)end of .content-3-------------------------------------------------- */
   .change-your-habits .img-title-container .content-4 img {
-   
+
     margin: 1rem auto;
 
   }
 
-  
+
   .change-your-habits .img-title-container .content-4 p {
-  
+
     padding: 0.5rem auto;
-  
+
     opacity: 0.7;
- 
+
   }
 
   /*--(img,b,p)end of .content-4--------------------------------------------------- */
   .change-your-habits .card {
-    width:95%;
-    justify-content:center;
+    width: 95%;
+    justify-content: center;
     flex-direction: column;
-    margin: 3rem auto ;
- 
-   
+    margin: 3rem auto;
+
+
   }
 
   .change-your-habits .card .description {
@@ -942,7 +951,7 @@ th {
   }
 
   .change-your-habits .card .description h2 {
-    
+
     font-size: 2rem;
   }
 
@@ -950,26 +959,26 @@ th {
     margin: 0.5rem auto;
     opacity: 0.7;
 
-    
-    
+
+
   }
 
   .change-your-habits .card .description button {
-   
-    
+
+
     margin: 1rem 0;
     padding: 0.6rem 2.5rem;
-  
-   
+
+
   }
 
   /* ----(h2,p,button)end of.description------------------ */
   .change-your-habits .card .img {
-     height: 14rem;
-     margin: -0.5rem auto 2rem;
-     width: 90%;
-  
- 
+    height: 14rem;
+    margin: -0.5rem auto 2rem;
+    width: 90%;
+
+
 
 
 
@@ -977,175 +986,186 @@ th {
 
   /* change-your-habits section end------------ */
 
-  
-/* bmi-calculator section start------------ */
-.bmi-calculator {
-  width:95%;
-  margin:0 auto;
-  grid-template-columns: auto;
- 
 
-}
-
-.bmi-calculator .title-description {
-
-  margin: 0rem auto;
-
-}
-
-.bmi-calculator .title-description h2 {
-  font-size: 2rem;
+  /* bmi-calculator section start------------ */
+  .bmi-calculator {
+    width: 95%;
+    margin: 0 auto;
+    grid-template-columns: auto;
 
 
-}
+  }
 
-.bmi-calculator .title-description p {
- 
-  margin:0.5rem auto;
- 
+  .bmi-calculator .title-description {
 
+    margin: 0rem auto;
 
-}
+  }
 
-/* ---(h2,p)end of.title-description----------------------------------------- */
-.bmi-calculator .chart-container {
-  width:100%;
-  flex-direction: column;
- 
-  
-  margin: 0 auto;
-  gap: 2rem;
- 
+  .bmi-calculator .title-description h2 {
+    font-size: 2rem;
 
 
-}
+  }
 
-.bmi-calculator .chart-container .chart {
-  margin: 1rem auto  ;
+  .bmi-calculator .title-description p {
 
-}
-
-.bmi-calculator .chart-container .chart table caption {
-  margin: 0 auto;
-   text-align: center;
-  font-size: 1.3rem;
-
-}
-
-.bmi-calculator .chart-container .chart table,
-th {
-  padding: 0.8rem 0rem;
- 
-
-}
-
-.bmi-calculator .chart-container .chart td {
-  padding: 1rem 1.5rem;
- 
-
-}
-
-/* --(table)end of .chart------------------------------------------ */
-.bmi-calculator .chart-container .calculator {
-  margin: 0.5rem auto;
-  text-align: center;
-}
-
-.bmi-calculator .chart-container .calculator h3 {
-   text-align: center;
- 
-  font-size: 1.3rem;
-  
-}
-
-.bmi-calculator .chart-container .calculator p {
-   text-align:center;
-  font-size: 0.8rem;
-  opacity: 0.7;
+    margin: 0.5rem auto;
 
 
-  /*--(h3,p)end of .calculator-----------------------------------------------  */
-}
 
-.bmi-calculator .chart-container .calculator .input{
-     text-align: center;
-    
-    
-}
+  }
 
-.bmi-calculator .chart-container .calculator .input input {
-   width:45%;
-  padding: 0.8rem 0 ;
-  margin: 0.5rem auto;
- 
-}
-
-.bmi-calculator .chart-container .calculator .input input::placeholder {
-  padding-left: 0.5rem;
-}
-
-.bmi-calculator .chart-container .calculator .input [name="gender"] {
-  padding: 0.8rem 0.1rem;
-  width: 45%;
-  margin: 0.5rem auto;
-  
-}
-
-.bmi-calculator .chart-container .calculator .input [name="activities"] {
-  width:91%;
-  padding:0.8rem 0;
-  margin: 0.5rem auto;
- 
-
-}
-
-.bmi-calculator .chart-container .calculator button {
- 
-  margin: 2rem auto;
-  padding: 0.6rem 2.5rem;
- 
-}
-
-/* bmi-calculator section end------------ */
+  /* ---(h2,p)end of.title-description----------------------------------------- */
+  .bmi-calculator .chart-container {
+    width: 100%;
+    flex-direction: column;
 
 
-/* meet-our-team section start------------ */
-
-.meet-our-team {
-
-  width: 95%;
-  margin: 0 auto;
- 
-}
-.meet-our-team .title-des h2 {
-  font-size: 2rem;
-  margin: 2rem auto;
-
-}
-
-.meet-our-team .title-des p {
- 
-  margin: -1.5rem auto;
- 
-}
-
-/*--(h2,p)end of .title-des---------------------------------------------------  */
+    margin: 0 auto;
+    gap: 2rem;
 
 
-.meet-our-team .identity-img {
- 
-  grid-template-columns: auto;
-  margin: 3rem auto;
-  padding: 1rem 0;
-  
 
-}
-.meet-our-team .identity-img img {
+  }
 
-  width: 23rem;
+  .bmi-calculator .chart-container .chart {
+    margin: 1rem auto;
+
+  }
+
+  .bmi-calculator .chart-container .chart table caption {
+    margin: 0 auto;
+    text-align: center;
+    font-size: 1.3rem;
+
+  }
+
+  .bmi-calculator .chart-container .chart table,
+  th {
+    padding: 0.8rem 0rem;
+
+
+  }
+
+  .bmi-calculator .chart-container .chart td {
+    padding: 1rem 1.5rem;
+
+
+  }
+
+  /* --(table)end of .chart------------------------------------------ */
+  .bmi-calculator .chart-container .calculator {
+    margin: 0.5rem auto;
+    text-align: center;
+  }
+
+  .bmi-calculator .chart-container .calculator h3 {
+    text-align: center;
+
+    font-size: 1.3rem;
+
+  }
+
+  .bmi-calculator .chart-container .calculator p {
+    text-align: center;
+    font-size: 0.8rem;
+    opacity: 0.7;
+
+
+    /*--(h3,p)end of .calculator-----------------------------------------------  */
+  }
+
+  .bmi-calculator .chart-container .calculator .input {
+    text-align: center;
+
+
+  }
+
+  .bmi-calculator .chart-container .calculator .input input {
+    width: 45%;
+    padding: 0.8rem 0;
+    margin: 0.5rem auto;
+
+  }
+
+  .bmi-calculator .chart-container .calculator .input input::placeholder {
+    padding-left: 0.5rem;
+  }
+
+  .bmi-calculator .chart-container .calculator .input [name="gender"] {
+    padding: 0.8rem 0.1rem;
+    width: 45%;
+    margin: 0.5rem auto;
+
+  }
+
+  .bmi-calculator .chart-container .calculator .input [name="activities"] {
+    width: 91%;
+    padding: 0.8rem 0;
+    margin: 0.5rem auto;
+
+
+  }
+
+  .bmi-calculator .chart-container .calculator button {
+
+    margin: 2rem auto;
+    padding: 0.6rem 2.5rem;
+
+  }
+
+  /* bmi-calculator section end------------ */
+
+
+  /* meet-our-team section start------------ */
+
+  .meet-our-team {
+
+    width: 95%;
+    margin: 0 auto;
+
+  }
+
+  .meet-our-team .title-des h2 {
+    font-size: 2rem;
+    margin: 2rem auto;
+
+  }
+
+  .meet-our-team .title-des p {
+
+    margin: -1.5rem auto;
+
+  }
+
+  /*--(h2,p)end of .title-des---------------------------------------------------  */
+
+
+  .meet-our-team .identity-img {
+
+    grid-template-columns: auto;
+    margin: 3rem auto;
+    padding: 1rem 0;
+
+
+  }
+
+  /* .meet-our-team .identity-img div{
+  /* width:80%; */
+  /* height: 95%; */
+  /* margin:1.5rem auto ; */
+  /* position: relative; */
+
+
+
+ .meet-our-team .identity-img img {
+
+  /* width: 23rem;
+  height: 23rem; */
   height: 23rem;
   margin: 1rem auto;
- 
+
 
 }
 
@@ -1164,8 +1184,8 @@ th {
 
 .footer-of-container .all-of-footer {
 
-   flex-direction:column;
-
+  flex-direction: column;
+   margin:0 0.5rem;
 }
 
 .footer-of-container .all-of-footer .Part-1 {
@@ -1176,9 +1196,9 @@ th {
 
 .footer-of-container .all-of-footer .Part-1 h3 {
 
-   text-align: center;
-   padding:0.5rem 0;
- 
+  text-align: center;
+  padding: 0.5rem 0;
+
 
 }
 
@@ -1196,14 +1216,14 @@ th {
 }
 
 .footer-of-container .all-of-footer .Part-2 h3 {
-   text-align: center;
+  text-align: center;
   padding: 0.5rem 0;
- 
+
 }
 
 .footer-of-container .all-of-footer .Part-2 p {
-  padding: 0.5rem 0 ;
-  text-align:center;
+  padding: 0.5rem 0;
+  text-align: center;
 }
 
 /* --(h3,p)end of.part-2----------------------------------------------- */
@@ -1215,22 +1235,22 @@ th {
 
 .footer-of-container .all-of-footer .Part-3 h3 {
   text-align: center;
-  padding: 0.5rem 0 ;
- 
+  padding: 0.5rem 0;
+
 }
 
 .footer-of-container .all-of-footer .Part-3 p {
-  padding: 0.5rem 0 ;
-  text-align:center;
- 
+  padding: 0.5rem 0;
+  text-align: center;
+
 }
 
 /* ---(h3,p)end of.part-3-------------------------------------------- */
- 
+
 .footer-of-container .last-p {
- 
+
   font-size: 1rem;
- 
+
 
 }
 
