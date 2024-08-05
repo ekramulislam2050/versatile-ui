@@ -26,14 +26,15 @@
   padding: 0;
   box-sizing: border-box;
   font-family: "Inter", sans-serif;
+ 
 }
-
+ body{
+  background: #000000;
+ }
 .container {
   max-width: 100%;
   width: 100%;
-  background: #000000;
-
-
+  height: 100vh;
   margin: 0 auto;
 
 }
@@ -1121,8 +1122,8 @@ th {
   /* meet-our-team section start------------ */
 
   .meet-our-team {
-
     width: 90%;
+   
     margin: 0 auto;
 
   }
@@ -1182,7 +1183,7 @@ th {
 }
 
 .footer-of-container .all-of-footer {
-
+  width: 90%;
   flex-direction: column;
    margin:0 0.5rem;
 }
