@@ -719,7 +719,8 @@ th {
 
 @media only screen and (max-width: 576px) {
    .container{
-     /* padding-right:0rem; */
+     margin: 0 auto;
+     padding: 0 1rem;
      overflow: hidden;
    }
 
