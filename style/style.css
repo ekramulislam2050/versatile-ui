@@ -720,7 +720,7 @@ th {
 @media only screen and (max-width: 576px) {
    .container{
      margin: 0 auto;
-     padding: 0 1rem;
+     padding: 0 1.5rem;
      overflow: hidden;
    }
 
@@ -959,7 +959,7 @@ th {
   }
 
   .change-your-habits .card .description p {
-    margin: 0.5rem 0.1rem;
+    padding: 0.5rem 0.2rem;
     opacity: 0.7;
 
 
@@ -1014,7 +1014,7 @@ th {
   .bmi-calculator .title-description p {
 
     margin: 0.5rem auto;
-
+    padding:0.5rem 0.2rem;
 
 
   }
@@ -1074,7 +1074,7 @@ th {
     text-align: center;
     font-size: 0.8rem;
     opacity: 0.7;
-
+     padding: 0.5rem 0.2rem;
 
     /*--(h3,p)end of .calculator-----------------------------------------------  */
   }
@@ -1139,7 +1139,7 @@ th {
   .meet-our-team .title-des p {
 
     margin: -1.5rem auto;
-
+    padding: 0.5rem 0.2rem;
   }
 
   /*--(h2,p)end of .title-des---------------------------------------------------  */
