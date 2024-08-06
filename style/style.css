@@ -943,8 +943,8 @@ th {
 
     justify-content: center;
     flex-direction: column;
-    margin: 3rem 0.7rem;
-    width: 95%;
+    margin: 3rem auto;
+    width: 98%;
 
   }
 
@@ -1021,7 +1021,7 @@ th {
 
   /* ---(h2,p)end of.title-description----------------------------------------- */
   .bmi-calculator .chart-container {
-    width: 95%;
+    width: 98%;
     flex-direction: column;
 
 
@@ -1150,7 +1150,7 @@ th {
     grid-template-columns: auto;
     margin: 3rem auto;
     padding: 1rem 0.5rem;
-    width: 95%;
+    width: 98%;
 
   }
 
@@ -1160,7 +1160,7 @@ th {
 
  .meet-our-team .identity-img img {
 
-  width: 91%;
+  width: 96%;
   margin: 0.5rem auto;
 
 
@@ -1180,9 +1180,9 @@ th {
 }
 
 .footer-of-container .all-of-footer {
-
+  width:95%;
   flex-direction: column;
-   /* margin: 0 0.5rem; */
+   margin: 0 auto;
 }
 
 .footer-of-container .all-of-footer .Part-1 {
@@ -1200,7 +1200,7 @@ th {
 }
 
 .footer-of-container .all-of-footer .Part-1 p {
-  padding: 0.5rem 0;
+  padding: 0.5rem ;
   text-align: center;
 
 }
@@ -1219,7 +1219,7 @@ th {
 }
 
 .footer-of-container .all-of-footer .Part-2 p {
-  padding: 0.5rem 0;
+  padding: 0.5rem ;
   text-align: center;
 }
 
@@ -1237,7 +1237,7 @@ th {
 }
 
 .footer-of-container .all-of-footer .Part-3 p {
-  padding: 0.5rem 0;
+  padding: 0.5rem ;
   text-align: center;
 
 }
