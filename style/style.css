@@ -28,9 +28,7 @@
   font-family: "Inter", sans-serif;
  
 }
- body{
- 
- }
+
 .container {
  
   margin: 0 auto;
@@ -398,27 +396,30 @@
 
 /* bmi-calculator section start------------ */
 .bmi-calculator {
-
+ 
   display: grid;
   grid-template-rows: auto auto;
-  justify-content: center;
 
+  
 }
 
-.bmi-calculator .title-description {
-
-  margin: 3rem 0;
-
+.bmi-calculator
+ .title-description {
+ 
+  margin: 3rem auto;
+  
 }
 
-.bmi-calculator .title-description h2 {
+.bmi-calculator
+ .title-description h2 {
   font-size: 2.5rem;
   text-align: center;
   color: #fff;
 
 }
 
-.bmi-calculator .title-description p {
+.bmi-calculator 
+.title-description p {
   text-align: center;
   color: #fff;
   font-size: 0.8rem;
@@ -428,16 +429,22 @@
 }
 
 /* ---(h2,p)end of.title-description----------------------------------------- */
-.bmi-calculator .chart-container {
-
+.bmi-calculator 
+.chart-container {
+ 
+ 
   display: flex;
-  gap: 20rem;
+   justify-content: space-between;
+   padding-left:2rem;
   background: #232323;
 
 
 }
 
-.bmi-calculator .chart-container .chart {
+.bmi-calculator 
+.chart-container .chart {
+
+
   margin: 3rem 0 2rem 7rem;
 
 }
@@ -579,8 +586,7 @@ th {
 }
 
 .meet-our-team .identity-img div {
-  /* width:90%; */
-  /* height: 90vh; */
+ 
 
   margin: 1rem 0.5rem;
   position: relative;
@@ -714,8 +720,10 @@ th {
 }
 
 /* footer-of-container end ----------------------- */
+
 /* ************************************************** */
 
+/* FOR MOBILE */
 
 @media only screen and (max-width: 576px) {
    .container{
@@ -1253,5 +1261,127 @@ th {
 
 /* footer-of-container end ----------------------- */
 
+
+}
+
+/* ********************************************************* */
+
+/* FOR DESKTOP */
+
+@media only screen and (min-width: 992px){
+    
+  
+.container {
+ 
+  margin: 0 auto;
+  background: #000000;
+  overflow:hidden;
+}
+
+.header-of-container {
+
+  margin: 0 auto;
+
+}
+.change-your-habits .heading p {
+   width:90%;
+   margin: 0 auto;
+   
+ 
+}
+.change-your-habits
+ .img-title-container {
+   
+  margin: 3rem;
+}
+.change-your-habits .card {
+
+   margin:3rem;
+
+
+}
+
+.bmi-calculator
+ .chart-container 
+ .chart {
+ 
+  margin: 3rem  3rem ;
+
+}
+
+.bmi-calculator 
+.chart-container 
+.chart td {
+  padding: 1rem 1.5rem;
+  text-align: center;
+ 
+
+}
+
+
+ .meet-our-team .identity-img {
+  
+  margin:3rem;
+
+}
+.meet-our-team 
+.identity-img img {
+
+  width: 100%;
+ 
+
+}
+
+
+
+/* ************************************************ */
+
+/* footer-of-container start-------------------- */
+.footer-of-container {
+   padding:0.5rem;
+ 
+
+}
+.footer-of-container 
+.all-of-footer .Part-1 h3 {
+   
+  padding: 1rem 0rem 1rem 3rem;
+   
+
+}
+
+.footer-of-container 
+.all-of-footer .Part-1 p {
+  padding: 1rem 0rem 1rem 3rem;
+   
+
+}
+.footer-of-container 
+.all-of-footer .Part-2 h3 {
+  font-size: 1.5rem;
+  padding: 1rem 5rem 1rem 3rem;
+  color: #fff;
+}
+
+.footer-of-container 
+.all-of-footer .Part-2 p {
+  padding: 1rem 0rem 1rem 3rem;
+  color: rgb(255, 255, 255, 0.2);
+  line-height: 1.5rem;
+}
+.footer-of-container 
+.all-of-footer .Part-3 h3 {
+ 
+  padding: 1rem 2rem 1rem 2rem;
+  
+}
+
+.footer-of-container
+ .all-of-footer .Part-3 p {
+  padding: 1rem 2rem 1rem 2rem;
+  
+}
+
+/* footer-of-container end ----------------------- */
 
 }
