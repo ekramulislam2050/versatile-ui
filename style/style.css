@@ -1401,7 +1401,7 @@ font-size:1.2rem;
  display:flex; 
  flex-direction:column;
   justify-content: center;
-  padding: 0rem 2rem;
+  padding: 0rem 1rem;
 }
 .all-of-uniq .uniq-heading h2{
    
@@ -1412,19 +1412,19 @@ font-size:1.2rem;
  /* card-1 start------------------------------------------ */
 .all-of-uniq
 .card-1{
-   width:80%; 
+   width:95%; 
    margin:0 auto 2rem; 
 
 }
 .all-of-uniq
 .card-1
 img{
-  margin:-0.3rem auto;
+  margin:1rem auto;
 }
 .all-of-uniq
 .card-1
 p{
-  font-size:0.6rem;
+  font-size:0.8rem;
    margin: 0.5rem 1rem ;
 }
 .all-of-uniq
@@ -1440,19 +1440,19 @@ p{
 /* card-2 start------------------------------------------ */
 .all-of-uniq
 .card-2{
-   width:80%; 
+  width:95%; 
    margin:0 auto 2rem; 
 
 }
 .all-of-uniq
 .card-2
 img{
-  margin:-0.3rem auto;
+  margin:1rem auto;
 }
 .all-of-uniq
 .card-2
 p{
-  font-size:0.6rem;
+  font-size:0.8rem;
    margin: 0.5rem 1rem ;
 }
 .all-of-uniq
@@ -1467,19 +1467,19 @@ p{
 /* card-3 start------------------------------------------ */
 .all-of-uniq
 .card-3{
-   width:80%; 
+  width:95%;  
    margin:0 auto 2rem; 
 
 }
 .all-of-uniq
 .card-3
 img{
-  margin:-0.3rem auto;
+  margin:1rem auto;
 }
 .all-of-uniq
 .card-3
 p{
-  font-size:0.6rem;
+  font-size:0.8rem;
    margin: 0.5rem 1rem ;
 }
 .all-of-uniq
@@ -1494,19 +1494,19 @@ span i{
 /* card-4 start------------------------------------------ */
 .all-of-uniq
 .card-4{
-   width:80%; 
+  width:95%; 
    margin:0 auto 2rem; 
 
 }
 .all-of-uniq
 .card-4
 img{
-  margin:-0.3rem auto;
+  margin:1rem auto;
 }
 .all-of-uniq
 .card-4
 p{
-  font-size:0.6rem;
+  font-size:0.8rem;
    margin: 0.5rem 1rem ;
 }
 .all-of-uniq
