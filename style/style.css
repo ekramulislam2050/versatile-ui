@@ -630,7 +630,8 @@ th {
  .all-card{
   display:flex; 
    justify-content: center;
-   padding: 2rem 4rem;
+   padding: 2rem 0;
+ 
  }
  .all-of-uniq .uniq-heading h2{
      color:#fff;
@@ -1401,19 +1402,20 @@ font-size:1.2rem;
  display:flex; 
  flex-direction:column;
   justify-content: center;
-  padding: 0rem 1rem;
+  padding: 0 1rem;
+  
 }
 .all-of-uniq .uniq-heading h2{
    
     font-size:2rem;
-    margin-bottom:1.5rem;
+     margin-bottom: 2rem;
 }
 
  /* card-1 start------------------------------------------ */
 .all-of-uniq
 .card-1{
    width:95%; 
-   margin:0 auto 2rem; 
+   margin:0 auto 4rem;
 
 }
 .all-of-uniq
@@ -1441,7 +1443,7 @@ p{
 .all-of-uniq
 .card-2{
   width:95%; 
-   margin:0 auto 2rem; 
+  margin:0 auto 4rem;
 
 }
 .all-of-uniq
@@ -1468,7 +1470,7 @@ p{
 .all-of-uniq
 .card-3{
   width:95%;  
-   margin:0 auto 2rem; 
+  margin:0 auto 4rem;
 
 }
 .all-of-uniq
@@ -1495,7 +1497,7 @@ span i{
 .all-of-uniq
 .card-4{
   width:95%; 
-   margin:0 auto 2rem; 
+  margin:0 auto 4rem;
 
 }
 .all-of-uniq
